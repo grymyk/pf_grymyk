@@ -1,0 +1,85 @@
+[
+  {
+    "category": "software",
+    "title": "Scandinaviantree",
+    "description": "e-commerce retail of Nordic design",
+    "link": "http://scandinaviantree.com/",
+    "imgUrl": "/scandinaviantree.png",
+    "id": "1",
+    "tools": ["Handlebars", "Sass", "jQuery", "PHP", "3D"]
+  } , {
+    "category": "software",
+    "title": "StatsGraph",
+    "description": "tool for data visualization",
+    "link": "http://statgraph.grymyk.com/",
+    "imgUrl": "/statgraph.png",
+    "id": "2",
+    "tools": ["Canvas", "Sass", "ReactJS", "Statistics"]
+  },  {
+    "category": "software",
+    "title": "Reform",
+    "description": "tool for construct scandinavian tree",
+    "link": "http://stform.grymyk.com/",
+    "imgUrl": "/stform.png",
+    "id": "3",
+    "tools": ["Sass", "ReactJS", "Animations", "3D"]
+  }, {
+    "category": "software",
+    "title": "Figure",
+    "description": "prototype for online atelier",
+    "link": "http://figure.grymyk.com/",
+    "imgUrl": "/figure.png",
+    "id": "4",
+    "tools": ["Canvas", "Sass", "ReactJS", "Graphics"]
+  }, {
+    "category": "software",
+    "title": "Ovlay",
+    "description": "AR for map",
+    "link": "https://ovlay.herokuapp.com/",
+    "imgUrl": "/ovlay.png",
+    "id": "5",
+    "tools": ["Geomerty", "MapboxJS", "Heroku", "AR"]
+  }, {
+    "category": "software",
+    "title": "Slot Machine",
+    "description": "Slot Machine Game",
+    "link": "http://slot.grymyk.com/",
+    "imgUrl": "/slot.png",
+    "id": "6",
+    "tools": ["Sass", "JavaScript", "Animations", "Slot"]
+  }, {
+    "id": "7",
+    "link": "http://itten.grymyk.com/",
+    "imgUrl": "/itten.png",
+    "title": "Itten",
+    "category": "software",
+    "description": "platform for colour analisys",
+    "tools": ["Sass", "ReactJS", "Colour Theory"]
+    
+  }, {
+    "category": "architecture",
+    "title": "Architectural Portfolio",
+    "description": "Architectural Portfolio of Foundation Year",
+    "link": "https://grymyk.com/arch-portfolio.pdf",
+    "imgUrl": "/arch-portfolio.png",
+    "id": "8",
+    "tools": ["Graphics", "Collage", "Composition", "Writing"]
+  }, {
+    "category": "architecture",
+    "title": "zine",
+    "description": "magaZine about wire's impact to building",
+    "link": "https://grymyk.com/zine.pdf",
+    "imgUrl": "/zine.png",
+    "id": "9",
+    "tools": ["Photography", "Environment", "Wire"]
+  }, {
+    "category": "architecture",
+    "title": "Poster",
+    "description": "Poster for laboratory",
+    "link": "https://grymyk.com/poster.pdf",
+    "imgUrl": "/poster.png",
+    "id": "10",
+    "tools": ["Graphics", "Sociology", "Noise"]
+    
+  } 
+]
