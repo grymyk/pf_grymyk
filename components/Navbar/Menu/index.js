@@ -1,6 +1,7 @@
 import { useState } from "react"
-import NavButton from './NavButton';
+import NavItem from './NavItem';
 import HamburgerMenu from './Hamburger'
+import { useRouter } from 'next/router'
 
 export default function Menu() {
     const mobile = `text-center duration-300
@@ -12,31 +13,57 @@ export default function Menu() {
         md:bg-transparent md:flex-row md:bg-transparent
     `
 
-    const active = `left-0`
+    const open = `left-0`
 
-    const [isActive, setActive] = useState(false);
+    const [isOpen, setOpen] = useState(false);
 
     const handleToggle = () => {
-        setActive( !isActive );
+        setOpen( !isOpen );
     };
 
-    let menu_style = mobile + dekstop;
+    let menu_style = mobile.concat(dekstop);
 
-    if (isActive) {
-        menu_style += active;
+    if ( isOpen ) {
+        menu_style += open;
     }
+
+    const links = [{
+	    url: '/',
+            id: 1,
+            title: 'Home',
+            active_cls: ''
+        }, {
+            url: '/projects',
+            id: 2,
+            title: 'Projects',
+            active_cls: '',
+        }, {
+            url: '/contact',
+            id: 4,
+            title: 'Contact',
+            active_cls: ''
+    }]
+
+    const router = useRouter()
+    const active_url = router.pathname;
+   
+    const nav_list = links.map( (link) => {
+        return <NavItem
+            key = { link.id }
+            title = { link.title }
+            current_url = { link.url }
+            active_url = { active_url }
+        />
+    }) 
 
     return (
         <>
             <div className = { menu_style }>
-                <NavButton text="Home" url="/" />
-                <NavButton text="Projects" url="/projects" />
-                {/* <NavButton text="Blog" url="/blog" /> */}
-                <NavButton text="Contact" url="/contact" />
+                { nav_list }
             </div>
             <HamburgerMenu
                 handleToggle = { handleToggle }
-                isActive = { isActive }
+                isOpen = { isOpen }
             />
         </>
         

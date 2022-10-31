@@ -23,6 +23,8 @@ export default function Card({link, imgUrl, title, description, tools }) {
                 src = { imgUrl }
                 alt = { title }
                 className="transform object-cover h-full w-full"
+                width = { 352 } 
+                height = { 288 }
             />
             <div className="bg-black object-cover h-full w-full absolute top-0 opacity-0 group-hover:opacity-40"></div>
           </div>
