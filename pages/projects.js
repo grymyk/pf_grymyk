@@ -7,6 +7,7 @@ export default function Work() {
   const { data } = useSWR("/api/projects", fetcher);
   console.log('data:', data)
   console.log('fetcher:', fetcher)
+  console.log('useSWR', useSWR)
 
   return (
     <Layout>
