@@ -8,6 +8,7 @@ export default function Projects() {
     const { data, error } = useSWR("/api/projects", fetcher)
 
     if (error) {
+        console.log( error )
         return <div>failed to load</div>
     }
 
