@@ -4,10 +4,15 @@ import Layout from "../components/Layout";
 import CardListProject from "../components/Projects/CardListProject";
 
 export default function Work() {
-  const { data } = useSWR("/api/projects", fetcher);
-  console.log('data:', data)
-  console.log('fetcher:', fetcher)
-  console.log('useSWR', useSWR)
+  const { data, error } = useSWR("/api/projects", fetcher);
+
+  if (error) {
+      return <div>failed to load</div>
+  }
+
+  if (!data) {
+      return <div>loading...</div>
+  }
 
   return (
     <Layout>

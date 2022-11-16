@@ -2,6 +2,6 @@
 
 import projects from "../../public/projects.json";
 
-export default function helloAPI(req, res) {
+export default function getProjects(req, res) {
     res.status(200).json(projects);
 }

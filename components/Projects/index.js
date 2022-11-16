@@ -5,7 +5,15 @@ import { fetcher } from "../../lib/utils";
 import CardListHome from "./CardListHome";
 
 export default function Projects() {
-    const { data } = useSWR("/api/projects", fetcher);
+    const { data, error } = useSWR("/api/projects", fetcher)
+
+    if (error) {
+        return <div>failed to load</div>
+    }
+
+    if (!data) {
+        return <div>loading...</div>
+    }
 
     const view_all = `text-gray-500 hover:text-violet-400 font-sans text-2xl
         font-extrabold leading-none hover:underline ml-auto cursor-pointer
