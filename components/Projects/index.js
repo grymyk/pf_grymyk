@@ -1,8 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import useSWR from "swr";
-import { fetcher } from "../../lib/utils";
+import axios from 'axios'
 import CardListHome from "./CardListHome";
+
+const fetcher = url => axios.get(url).then(res => res.data)
 
 export default function Projects() {
     const { data, error } = useSWR("/api/projects", fetcher)
