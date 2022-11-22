@@ -23,7 +23,7 @@ export default function WorkCardListProject({ data }) {
     ));
 
     return (
-        <div className="max-w-screen-md px-4 py-12 mx-auto">
+        <div>
       
             <div className="text-gray-500 font-sans text-4xl font-extrabold leading-none tracking-tight my-3 dark:text-gray-300">
               Projects

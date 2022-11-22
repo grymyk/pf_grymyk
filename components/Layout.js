@@ -9,8 +9,13 @@ export default function Layout({ children }) {
         <title>Mykola Grytsai</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Navbar />
-      <main>{children}</main>
+
+      <main className="max-w-screen-md px-4 py-12 mx-auto">
+          { children }
+      </main>
+
       <Footer />
     </div>
   );

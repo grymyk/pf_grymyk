@@ -11,11 +11,12 @@ export default function Projects() {
 
     if (error) {
         console.log( error )
+
         return <div>failed to load</div>
     }
 
-    if (!data) {
-        return <div>loading...</div>
+    if ( !data ) {
+        return <div className = "mt-4 text-center italic">loading...</div>
     }
 
     const view_all = `text-gray-500 hover:text-violet-400 font-sans text-2xl
