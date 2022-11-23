@@ -20,10 +20,12 @@ export default function ContactForm() {
 
   const input_holder_cls = `py-2 w-full`
 
-  const input_cls = `dark:bg-transparent w-full bg-gray-100 bg-opacity-50
-      rounded border border-gray-300 focus:border-violet-400
-      focus:bg-white focus:ring-2 focus:ring-violet-200 text-base outline-none
-      text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out
+  const input_cls = `w-full bg-gray-100 bg-opacity-50 rounded
+      border border-gray-300 text-base outline-none text-gray-700 py-1 px-3
+      leading-8 transition-colors duration-200 ease-in-out
+      dark:bg-transparent
+      focus:border-violet-400 focus:bg-white focus:ring-2
+      focus:ring-violet-200
   `
 
   return (

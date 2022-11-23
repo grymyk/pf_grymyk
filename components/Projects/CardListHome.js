@@ -5,7 +5,7 @@ export default function WorkCardListHome({data}) {
     
     return (
         <>
-            <div className="grid md:grid-cols-3 gap-8 lg:mt-8 pb-40">
+            <div className="grid md:grid-cols-3 gap-8 lg:mt-8 pb-40 text-center">
                 { data && 
                     data
                     .slice(0, numberCards)
