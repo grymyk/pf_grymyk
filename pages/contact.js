@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Link from 'next/link';
-// import ContactForm from "../components/ContactForm";
+import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
   const email_cls = `font-bold underline hover:text-violet-400`
@@ -12,8 +12,7 @@ export default function Contact() {
   const holder_cls = `mx-auto sm:w-96`
   const adr_holder_cls = `flex text-xl flex-col w-full my-12`
 
-  const titleWithForm = `Get in touch or type me an email on `
-  const title = `Type me an email on `
+  const title = `Get in touch or type me an email on `
 
   return (
     <Layout>
@@ -34,7 +33,7 @@ export default function Contact() {
                   </address>
                 </div>
 
-                {/* <ContactForm /> */}
+                <ContactForm />
             </div>
         </section>
 
