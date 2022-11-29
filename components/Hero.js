@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link"
+
 
 export default function Hero() {
     const resume_btn = `inline-flex text-white font-medium bg-gray-700
@@ -6,6 +8,8 @@ export default function Hero() {
         rounded-md text-lg dark:bg-gray-300 dark:text-black
         dark:hover:bg-violet-400 dark:hover:text-white
     `
+
+    const cv_url = `https://drive.google.com/file/d/1-sq4lhameMuZwPnHc424a-8f42XnQcB0/view?usp=share_link`
 
     return (
       <section className="text-gray-700 dark:text-gray-300">
@@ -20,9 +24,14 @@ export default function Hero() {
               problems.
             </p>
             <div className="flex justify-center">
-              <button className = { resume_btn }>
-                Download Resume
-              </button>
+              <Link href = { cv_url }>
+
+                  <a className = { resume_btn }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Go to Resumé Page"
+                  >Download Resume</a>
+                </Link>
             </div>
           </div>
           <div className="w-auto md:mb-5">
