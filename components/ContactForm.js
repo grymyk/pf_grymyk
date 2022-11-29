@@ -9,7 +9,7 @@ export default function ContactForm() {
     } = useForm();
     
     const onSubmit = (data) => console.log(data);
-    console.log(errors);
+    // console.log(errors);
 
 
   const btn_style = `flex text-white font-medium bg-gray-700 border-0
