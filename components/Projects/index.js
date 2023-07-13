@@ -19,9 +19,9 @@ export default function Projects() {
         return <div className = "mt-4 text-center italic">loading...</div>
     }
 
-    const view_all = `text-gray-500 hover:text-violet-400 font-sans text-2xl
+    const view_all = `text-gray-500 hover:text-cyan-400 font-sans text-2xl
         font-extrabold leading-none hover:underline ml-auto cursor-pointer
-        tracking-tight my-2 dark:text-gray-300 dark:hover:text-violet-400
+        tracking-tight my-2 dark:text-gray-300 dark:hover:text-cyan-400
     `
 
     const work_cls = `container px-4 py-4 mx-auto
@@ -39,7 +39,7 @@ export default function Projects() {
             </div>
 
             <Link href="/projects" >
-              <a className = {view_all} >
+              <a className = { view_all } >
                 View all
               </a>
             </Link>

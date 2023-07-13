@@ -2,7 +2,7 @@
 export default function HamburgerMenu({ handleToggle, isActive }) {
     const bar_style = `bg-gray-700 dark:bg-gray-300
         my-1.5 mx-auto w-6 h-0.5 ease-in-out
-        duration-300 transition-all hover:bg-violet-500
+        duration-300 transition-all hover:bg-cyan-400
     `
     const hamburger = `block cursor-pointer md:hidden`
 

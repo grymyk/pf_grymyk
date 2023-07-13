@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Link from 'next/link';
-import ContactForm from "../components/ContactForm";
+// import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
   const email_cls = `font-bold underline hover:text-violet-400`
@@ -33,7 +33,7 @@ export default function Contact() {
                   </address>
                 </div>
 
-                <ContactForm />
+                {/* <ContactForm /> */}
             </div>
         </section>
 

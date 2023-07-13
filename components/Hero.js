@@ -1,12 +1,11 @@
 import Image from "next/image";
 import Link from "next/link"
 
-
 export default function Hero() {
     const resume_btn = `inline-flex text-white font-medium bg-gray-700
-        border-0 py-2 px-6 focus:outline-none hover:bg-violet-400
+        border-0 py-2 px-6 focus:outline-none hover:bg-cyan-500
         rounded-md text-lg dark:bg-gray-300 dark:text-black
-        dark:hover:bg-violet-400 dark:hover:text-white
+        dark:hover:bg-cyan-500 dark:hover:text-white
     `
 
     const cv_url = `https://drive.google.com/file/d/1-sq4lhameMuZwPnHc424a-8f42XnQcB0/view?usp=share_link`
@@ -37,10 +36,10 @@ export default function Hero() {
           <div className="w-auto md:mb-5">
             <Image
                 className = "object-cover object-center rounded z-0"
-                alt = "grytsai mykola avatar"
+                alt = "Mykola Grytsai avatar"
                 width = "243"
                 height = "243"
-                src="/grytsai_mykola.jpg"
+                src="/mykola_grytsai.jpg"
             />
           </div>
         </div>

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Logo() {
     const style = `ml-3 text-2xl w-10 mr-3
-        hover:text-violet-500
+        hover:text-cyan-400
     `
 
     return (
