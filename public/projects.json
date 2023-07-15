@@ -60,7 +60,7 @@
     "category": "architecture",
     "title": "Architectural Portfolio",
     "description": "Architectural Portfolio of Foundation Year",
-    "link": "https://grymyk.com/arch-portfolio.pdf",
+    "link": "/arch-portfolio.pdf",
     "imgUrl": "/arch-portfolio.png",
     "id": "8",
     "tools": ["Graphics", "Collage", "Composition", "Writing"]
@@ -68,7 +68,7 @@
     "category": "architecture",
     "title": "zine",
     "description": "magaZine about wire's impact to building",
-    "link": "https://grymyk.com/zine.pdf",
+    "link": "/zine.pdf",
     "imgUrl": "/zine.png",
     "id": "9",
     "tools": ["Photography", "Environment", "Wire"]
@@ -76,7 +76,7 @@
     "category": "architecture",
     "title": "Poster",
     "description": "Poster for laboratory",
-    "link": "https://grymyk.com/poster.pdf",
+    "link": "/poster.pdf",
     "imgUrl": "/poster.png",
     "id": "10",
     "tools": ["Graphics", "Sociology", "Noise"]
