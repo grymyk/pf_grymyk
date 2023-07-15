@@ -18,8 +18,8 @@ export default function Hero() {
               Hi, I am Mykola Grytsai, Creative Technologist
             </h1>
             <p className="mb-8 text-2xl leading-relaxed">
-              Experienced software engineer with demonstrated ingenuity and creativity and 5+ years of experience as a Front-end
-              developer. Having a Master degree in Physics I have an engineering mindset and am passionate about solving analytical
+              Experienced software engineer with demonstrated ingenuity and creativity and 5+ years of experience as a Frontend
+              developer. Having a Specialist degree in Physics I have an engineering mindset and am passionate about solving analytical
               problems.
             </p>
             <div className="flex justify-center">
