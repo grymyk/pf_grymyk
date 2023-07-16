@@ -19,8 +19,7 @@ export default function Projects() {
         return <div className = "mt-4 text-center italic">loading...</div>
     }
 
-    const view_all = `text-gray-500 hover:text-cyan-400 font-sans text-2xl
-        font-extrabold leading-none hover:underline ml-auto cursor-pointer
+    const view_all = `text-gray-500 hover:text-cyan-400 text-2xl leading-none hover:underline ml-auto cursor-pointer
         tracking-tight my-2 dark:text-gray-300 dark:hover:text-cyan-400 font-Spartan
     `
 
@@ -34,7 +33,7 @@ export default function Projects() {
       <div id="work" className = { work_cls }>
             
           <div className="flex items-center flex-wrap text-xl my-3">
-            <div className="text-gray-600 font-sans text-2xl font-extrabold leading-none tracking-tight m-2 dark:text-gray-300 font-Spartan">
+            <div className="text-gray-600 text-2xl leading-none tracking-tight m-2 dark:text-gray-300 font-Spartan">
               Featured Projects
             </div>
 
