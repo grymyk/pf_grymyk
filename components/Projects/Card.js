@@ -29,7 +29,7 @@ export default function Card({link, imgUrl, title, description, tools }) {
             <div className="bg-black object-cover h-full w-full absolute top-0 opacity-0 group-hover:opacity-40"></div>
           </div>
 
-          <div className="text-white absolute bottom-6 left-6 translate-y-[150px] ease-in-out duration-300 opacity-1 group-hover:translate-y-0 group-hover:opacity-100">
+          <div className="text-white absolute bottom-6 left-6 translate-y-[150px] ease-in-out duration-300 opacity-1 group-hover:translate-y-0 group-hover:opacity-100 font-Spartan">
             <h3 className="font-bold text-xl rounded-md">
                 { title }
             </h3>

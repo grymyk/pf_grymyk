@@ -5,7 +5,7 @@ export default function Footer({year}) {
     <div className="text-gray-700 dark:text-gray-300 w-full pt-8 mt-8 text-center">
       <SocialMedia />
       
-      <p className="leading-normal my-5">
+      <p className="leading-normal my-5 font-Spartan">
         Copyright ©{year} All rights reserved
       </p>
 

@@ -25,7 +25,7 @@ export default function WorkCardListProject({ data }) {
     return (
         <div>
       
-            <div className="text-gray-500 font-sans text-4xl font-extrabold leading-none tracking-tight my-3 dark:text-gray-300">
+            <div className="text-gray-500 font-sans text-4xl font-extrabold leading-none tracking-tight my-3 dark:text-gray-300 font-Spartan">
               Projects
             </div>
 

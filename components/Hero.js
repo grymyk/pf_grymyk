@@ -13,7 +13,7 @@ export default function Hero() {
     return (
       <section className="text-gray-700 dark:text-gray-300">
         <div className="container mx-auto w-auto flex py-8 px-4 flex-col-reverse items-center md:flex-row ">
-          <div className="lg:flex-grow lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center w-5/6">
+          <div className="font-Spartan lg:flex-grow lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center w-5/6">
             <h1 className="sm:text-4xl text-3xl mb-4 font-bold text-gray-700 dark:text-gray-300">
               Hi, I am Mykola Grytsai, Creative Technologist
             </h1>

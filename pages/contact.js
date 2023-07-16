@@ -3,11 +3,11 @@ import Link from 'next/link';
 // import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
-  const email_cls = `font-bold underline hover:text-violet-400`
+  const email_cls = `font-bold underline hover:text-violet-400 font-Spartan`
   const heading_cls = `font-sans text-4xl font-extrabold
-      leading-none tracking-tight my-3 dark:text-gray-300
+      leading-none tracking-tight my-3 dark:text-gray-300 font-Spartan
   `
-  const address_cls = `not-italic text-lg dark:text-gray-300`
+  const address_cls = `not-italic text-lg dark:text-gray-300 font-Spartan`
   const section_cls = `text-gray-600 body-font relative`
   const holder_cls = `mx-auto sm:w-96`
   const adr_holder_cls = `flex text-xl flex-col w-full my-12`
