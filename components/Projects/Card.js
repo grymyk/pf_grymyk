@@ -15,7 +15,7 @@ export default function Card({link, imgUrl, title, description, tools }) {
     })
     
     return (
-      <a href = {link} className="w-full block group backdrop-blur-[10px]">
+      <a href = { link } className="w-full block group backdrop-blur-[10px]">
         <div className="relative overflow-hidden">
           
           <div className="h-72 object-cover relative">

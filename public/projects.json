@@ -11,7 +11,7 @@
     "category": "software",
     "title": "StatsGraph",
     "description": "tool for data visualization",
-    "link": "http://statgraph.grymyk.com/",
+    "link": "https://statgraph.grymyk.com/",
     "imgUrl": "/statgraph.png",
     "id": "2",
     "tools": ["Canvas", "Sass", "ReactJS", "Statistics"]
@@ -19,7 +19,7 @@
     "category": "software",
     "title": "Reform",
     "description": "tool for construct scandinavian tree",
-    "link": "http://stform.grymyk.com/",
+    "link": "https://stform.grymyk.com/",
     "imgUrl": "/stform.png",
     "id": "3",
     "tools": ["Sass", "ReactJS", "Animations", "3D"]
@@ -27,7 +27,7 @@
     "category": "software",
     "title": "Figure",
     "description": "prototype for online atelier",
-    "link": "http://figure.grymyk.com/",
+    "link": "https://figure.grymyk.com/",
     "imgUrl": "/figure.png",
     "id": "4",
     "tools": ["Canvas", "Sass", "ReactJS", "Graphics"]
@@ -43,13 +43,13 @@
     "category": "software",
     "title": "Slot Machine",
     "description": "Slot Machine Game",
-    "link": "http://slot.grymyk.com/",
+    "link": "https://slot.grymyk.com/",
     "imgUrl": "/slot.png",
     "id": "6",
     "tools": ["Sass", "JavaScript", "Animations", "Slot"]
   }, {
     "id": "7",
-    "link": "http://itten.grymyk.com/",
+    "link": "https://itten.grymyk.com/",
     "imgUrl": "/itten.png",
     "title": "Itten",
     "category": "software",
