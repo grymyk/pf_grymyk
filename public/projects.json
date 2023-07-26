@@ -27,7 +27,7 @@
     "category": "software",
     "title": "Figure",
     "description": "prototype for online atelier",
-    "link": "https://figure.grymyk.com/",
+    "link": "https://grymyk.github.io/figure/",
     "imgUrl": "/figure.png",
     "id": "4",
     "tools": ["Canvas", "Sass", "ReactJS", "Graphics"]
