@@ -11,7 +11,7 @@
     "category": "software",
     "title": "StatsGraph",
     "description": "tool for data visualization",
-    "link": "https://statgraph.grymyk.com/",
+    "link": "https://grymyk.github.io/statgraph/",
     "imgUrl": "/statgraph.png",
     "id": "2",
     "tools": ["Canvas", "Sass", "ReactJS", "Statistics"]
