@@ -35,7 +35,7 @@
     "category": "software",
     "title": "Ovlay",
     "description": "AR for map",
-    "link": "https://ovlay.herokuapp.com/",
+    "link": "https://grymyk.github.io/build_layers/",
     "imgUrl": "/ovlay.png",
     "id": "5",
     "tools": ["Geomerty", "MapboxJS", "Heroku", "AR"]
