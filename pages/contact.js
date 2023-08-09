@@ -12,7 +12,8 @@ export default function Contact() {
   const holder_cls = `mx-auto sm:w-96`
   const adr_holder_cls = `flex text-xl flex-col w-full my-12`
 
-  const title = `Get in touch or type me an email on `
+  const title = `Get in touch`
+  // const title = `Get in touch or type me an email on `
 
   return (
     <Layout>
@@ -27,9 +28,11 @@ export default function Contact() {
                 <div className = { adr_holder_cls } >
                   <address className = { address_cls } >
                       { title }        
-                      <Link href="mailto:myko@grymyk.com">
-                        <a className = { email_cls } >grymyk@gmail.com</a>
-                    </Link>
+                      
+                      {/* <Link href="mailto:myko@grymyk.com">
+                        <a className = { email_cls } >myko@grymyk.com</a>
+                      </Link> */}
+
                   </address>
                 </div>
 
