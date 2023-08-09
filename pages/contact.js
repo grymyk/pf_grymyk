@@ -28,7 +28,7 @@ export default function Contact() {
                   <address className = { address_cls } >
                       { title }        
                       <Link href="mailto:myko@grymyk.com">
-                        <a className = { email_cls } >grymyk@gmail.com</a>
+                        <a className = { email_cls } >myko@grymyk.com</a>
                     </Link>
                   </address>
                 </div>
