@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Link from 'next/link';
-// import ContactForm from "../components/ContactForm";
+import Formspree from "../components/Formspree";
 
 export default function Contact() {
   const email_cls = `font-bold underline hover:text-cyan-400 font-Spartan`
@@ -28,12 +28,12 @@ export default function Contact() {
                   <address className = { address_cls } >
                       { title }        
                       <Link href="mailto:myko@grymyk.com">
-                        <a className = { email_cls } >myko@grymyk.com</a>
+                        <a className = { email_cls } >grymyk@gmail.com</a>
                     </Link>
                   </address>
                 </div>
 
-                {/* <ContactForm /> */}
+                <Formspree />
             </div>
         </section>
 

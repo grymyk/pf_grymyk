@@ -30,10 +30,11 @@ export default function ContactForm() {
 
   return (
       <form onSubmit = { handleSubmit(onSubmit) }>
+        
           <div className = "flex flex-wrap text-md">
-            <div className = {input_holder_cls} >
-              <div className ="relative">
-                
+            <div className = { input_holder_cls } >
+              
+              <div className ="relative"> 
                 <label
                   htmlFor="name"
                   className="leading-7 text-gray-600"
