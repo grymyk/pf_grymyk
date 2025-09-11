@@ -5,7 +5,8 @@ import FilterButton from './FilterButton.js';
 const FILTER_MAP = {
   All: () => true,
   Software: (card) => card.category === 'software',
-  Architecture: (card) => card.category === 'architecture'
+  Architecture: (card) => card.category === 'architecture',
+  Tutorship: (card) => card.category === 'tutorship'
 };
 
 const FILTER_NAMES = Object.keys(FILTER_MAP);

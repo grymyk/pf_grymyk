@@ -1,5 +1,5 @@
 [
-  {
+   {
     "category": "software",
     "title": "Scandinaviantree",
     "description": "e-commerce retail of Nordic design",
@@ -7,7 +7,7 @@
     "imgUrl": "/scandinaviantree.png",
     "id": "1",
     "tools": ["Handlebars", "Sass", "jQuery", "PHP", "3D"]
-  } , {
+  }, {
     "category": "software",
     "title": "StatsGraph",
     "description": "tool for data visualization",
@@ -81,5 +81,21 @@
     "id": "10",
     "tools": ["Graphics", "Sociology", "Noise"]
     
-  } 
+  }, {
+    "category": "tutorship",
+    "title": "Buki",
+    "description": "Найбільша база репетиторів | Досвідчені викладачі",
+    "link": "https://buki.com.ua/user-136257/",
+    "imgUrl": "/buki_logo.png",
+    "id": "11",
+    "tools": ["Descrite Math", "Linear Algebra", "Analyis", "Probability"]
+  }, {
+    "category": "tutorship",
+    "title": "Preply",
+    "description": "tutor website",
+    "link": "https://preply.com/en/?pref=MTExNTEwODc=&id=1757619662.829312&ep=w1",
+    "imgUrl": "/preply_logo.png",
+    "id": "12",
+    "tools": ["Descrite Math", "Linear Algebra", "Analyis", "Probability"]
+  }
 ]
